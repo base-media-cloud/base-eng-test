@@ -33,10 +33,10 @@ resource "aws_lambda_function" "object_mover" {
 
   environment {
     variables = {
-      SQS_QUEUE = ""
-      LOG_LEVEL = "INFO"
+      SQS_QUEUE               = ""
+      LOG_LEVEL               = "INFO"
       POWERTOOLS_SERVICE_NAME = "object_mover"
-      ROLE_ARN  = ""
+      ROLE_ARN                = ""
     }
   }
 
