@@ -54,14 +54,3 @@ variable "log_level" {
   type        = string
   default     = "INFO"
 }
-
-variable "environment" {
-  description = "The environment to deploy to."
-  type        = string
-}
-
-variable "filename" {
-  description = "The path to the function's deployment package within the local filesystem."
-  type        = string
-  default     = "../src/package.zip"
-}
