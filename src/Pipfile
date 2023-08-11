@@ -6,7 +6,6 @@ name = "pypi"
 [packages]
 aws-lambda-powertools = "*"
 jmespath = "*"
-boto3 = "*"
 
 [dev-packages]
 
