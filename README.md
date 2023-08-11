@@ -26,11 +26,12 @@ High level objectives:
 ### Deployment Success Criteria
 Deployment is largely up to the applicant on how to execute this.
 Below are the basic rquirements:
-- The fundamental requirement is to successfully complete provisioning and deployment using Terraform. 
+- The fundamental requirement is to successfully complete provisioning and deployment using Terraform.
 - Deployment should be achieved through a chosen pipeline, using best practices.
 - Test and validate terraform configuration before applying.
 - Correctly package and deploy the code to a Lambda function. The type of Lambda function is up to the applicant. (Zip archive, container, etc.)
 - The function should be able to respond to HTTP POST requests and return a JSON response.
+- Deployment pipeline should be able to update the Lambda function with new code changes.
 
 ## References
 
